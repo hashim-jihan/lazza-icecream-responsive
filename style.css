@@ -1,0 +1,66 @@
+main{
+    overflow: hidden;
+}
+footer{
+    overflow: hidden;
+}
+.logo-lazza{
+    width: 8rem;
+    height:4.5rem ;
+    cursor: pointer;
+}
+.nav-icons{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+@media (max-width: 768px){
+
+    .navbar-toggler{
+        order:3;
+
+    }
+
+    .collapse.navbar-toggler{
+        flex-basis: auto;
+        flex-grow: 1;
+        align-items: flex-end;
+    }
+    .ikons{
+        order:2;
+        justify-content: center;
+    }
+    .collapse.navbar-collapse{
+        justify-content: flex-end;
+    }
+
+}
+
+@media (max-width: 768px){
+    .navbar-expand-md .navbar-collapse {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 100%;
+        padding: 1rem;
+        /* background-color: #f9f9f9; */
+        background-color: black;
+        border-top: 1px solid #ddd;
+    }
+}
+.collapse,
+.navbar-collapse{
+    text-align: center;
+}
+/* .text-center{ 
+    font-size: 2rem;
+ } */
+.img-fluid,
+.figure{
+    cursor: pointer;
+}
+.shadow{
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
+.media-icons{
+    width: 1.875rem;
+}
